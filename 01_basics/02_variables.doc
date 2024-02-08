@@ -4,6 +4,8 @@ JavaScript Variables can be declared in 4 ways:
     3. Using let    
     4.  Using const
 
+
+
 The var keyword was used in all JavaScript code from 1995 to 2015.
 The let and const keywords were added to JavaScript in 2015.
 The var keyword should only be used in code written for older browsers.
@@ -16,4 +18,50 @@ When to Use var, let, or const?
     3. Always use const if the type should not be changed (Arrays and Objects)
     4. Only use let if you can't use const
     5. Only use var if you MUST support old browsers.
+
+
+
+MORE about let
+The let keyword was introduced in ES6 (2015)
+    -> Variables declared with let have Block Scope
+    -> Variables declared with let must be Declared before use
+    -> Variables declared with let cannot be Redeclared in the same scope
+
+Block Scope
+    -> Before ES6 (2015), JavaScript did not have Block Scope.
+    -> JavaScript had Global Scope and Function Scope.
+    -> ES6 introduced the two new JavaScript keywords: let and const.
+    -> These two keywords provided Block Scope in JavaScript:
+
+    Example
+        Variables declared inside a { } block cannot be accessed from outside the block:
+            {
+              let x = 2;
+            }
+            // x can NOT be used here
+
+Global Scope
+    -> Variables declared with the var always have Global Scope.
+    -> Variables declared with the var keyword can NOT have block scope:
+
+    Example
+        Variables declared with varinside a { } block can be accessed from outside the block:
+            {
+              var x = 2;
+            }
+            // x CAN be used here
+
+Cannot be Redeclared
+    -> Variables defined with let can not be redeclared.
+    -> You can not accidentally redeclare a variable declared with let.
+
+    With let you can not do this:
+        let x = "John Doe";
+        let x = 0;
+        
+    Variables defined with var can be redeclared.
+        With var you can do this:
+            var x = "John Doe";         
+            var x = 0;
+
 
