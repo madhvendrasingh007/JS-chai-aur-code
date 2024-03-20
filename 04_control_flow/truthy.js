@@ -1,4 +1,5 @@
-const userEmail = []
+const userEmail = "md@xyz"
+// if userEmail is empty then it will print "Don't have user email", if something is there then it will print "Got user email" and if userEmail = [], even though it is empty but it will print "Got user email"
 
 if (userEmail) {
     console.log("Got user email");
@@ -14,7 +15,7 @@ if (userEmail) {
 // "0", 'false', " ", [], {}, function(){}
 
 // if (userEmail.length === 0) {
-//     console.log("Array is empty");
+//     console.log("Array is empty");   // -> Array is empty
 // }
 
 const emptyObj = {}
@@ -28,7 +29,7 @@ if (Object.keys(emptyObj).length === 0) {
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
-// val1 = undefined ?? 15
+// val1 = undefined ?? 15   
 val1 = null ?? 10 ?? 20
 
 
