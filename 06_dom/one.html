@@ -69,6 +69,8 @@ title.style.borderRadius = '15px'   -> '15px'
 
 
 
+*********************** innerHTML, innerText, innerTextContent *********************** 
+
 title.innerHTML -> 'DOM learning on Chai aur code <span style="display: none;">test text</span>'
 gives the innerContent as well as the html code written with it
 
@@ -78,6 +80,10 @@ it will show the result which is visible to the user or on window
 title.textContent   -> 'DOM learning on Chai aur code test text'
 it can show the whole result even thought it was hided using some property like we hided 'test text' using style property
 
+
+
+
+*********************** query selector *********************** 
 
 document.querySelector('h2')    -> <h2>​Lorem ipsum dolor sit.​</h2>​
 
@@ -98,4 +104,37 @@ const turngreen = myul.querySelector('li')    -> undefined
 
 
 turngreen.style.backgroundColor = "green"    -> 'green'
+
+
+
+
+*********************** query selector all *********************** 
+const tempLiList = document.querySelectorAll('li')    -> undefined
+
+tempLiList    -> NodeList(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+tempLiList[0].style.color = "green"    -> 'green'
+in query selector all we have to define the position for change like here we did for tempLiList[0] : 0th position
+
+tempLiList.forEach( (l) => {
+    l.style.backgroundColor = "green"
+} )        -> undefined
+whole list background color will become green for all element in the list
+
+
+
+*********************** conversion to array *********************** 
+document.getElementsByClassName('list-item')    -> HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+return tyle is collection not array so we cant use forEach or map 
+
+const tempClassList = document.getElementsByClassName('list-item')    -> undefined
+
+tempClassList    -> HTMLCollection(4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+to convert to array we use
+Array.from(tempClassList)    -> (4) [li.list-item, li.list-item, li.list-item, li.list-item]
+
+const myArrayList = Array.from(tempClassList)    -> undefined
+now we can perform any array function on myArrayList
+
  -->
