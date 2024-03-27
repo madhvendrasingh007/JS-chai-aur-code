@@ -29,3 +29,61 @@
     </div>
 </body>
 </html>
+
+
+
+
+<!-- 
+Try in browser console 
+
+document.getElementById('title')    -> <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+
+
+document.getElementById('title').id -> 'title'
+
+
+document.getElementById('title').class  -> undefined
+JS want give name of the class by this instead of class use className
+
+document.getElementById('title').className  -> 'heading'
+
+
+document.getElementById('title').getAttribute('class')  -> 'heading'
+
+
+document.getElementById('title').setAttribute('class', 'test')  -> undefined
+It will show undefined but it has already changed the class of h1 i.e, heading to -> test
+
+
+const title  = document.getElementById('title') -> undefined
+
+
+title   -> <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1> 
+
+
+title.style.backgroundColor = 'green'   -> 'green'
+backgroun color of h1 tag will become green 
+
+
+title.style.borderRadius = '15px'   -> '15px'
+
+
+
+title.innerHTML -> 'DOM learning on Chai aur code <span style="display: none;">test text</span>'
+gives the innerContent as well as the html code written with it
+
+title.innerText -> 'DOM learning on Chai aur code'
+it will show the result which is visible to the user or on window
+
+title.textContent   -> 'DOM learning on Chai aur code test text'
+it can show the whole result even thought it was hided using some property like we hided 'test text' using style property
+
+
+document.querySelector('h2')    -> <h2>​Lorem ipsum dolor sit.​</h2>​
+
+
+document.querySelector('#title')    -> <h1 id=​"title" class=​"heading">​…​</h1>​
+
+
+document.querySelector('#title')    -> <h1 id=​"title" class=​"heading">​…​</h1>​
+ -->
