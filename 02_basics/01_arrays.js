@@ -42,7 +42,7 @@ console.log(myArr.indexOf(12));    //  2
 
 const newArr = myArr.join()
 console.log(newArr)
-console.log(typeof newArr)
+console.log(typeof newArr)  // String
 
 // ******* slice / splice *******
 // Refer for slice and splice : https://www.freecodecamp.org/news/javascript-slice-and-splice-how-to-use-the-slice-and-splice-js-array-methods/
@@ -55,8 +55,9 @@ console.log(myN1);
 
 console.log("B ", myArr);
 
-// SPLICE
+// SPLICE -> it manipulates the original array & last value is included
 const myN2 = myArr.splice(1,3)
 console.log("C ", myArr);
 console.log(myN2);
 
+console.log(`Original Array :-> ${myArr}`)
