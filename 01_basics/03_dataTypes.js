@@ -22,8 +22,8 @@ let state;
 console.log(person)
 console.table([length, color, x, num, state])
 
-console.log(typeof "madhvendra")
-console.log(typeof length)
-console.log(typeof person)
+console.log(typeof "madhvendra")    // string type
+console.log(typeof length)  // number type
+console.log(typeof person)  // object type
 console.log(typeof null)    // object type
 console.log(typeof undefined)   // undefined type
