@@ -20,16 +20,16 @@ const JsUser = {
 // Accessing object
 
 // 1st way (Not the best way to access an object)
-console.log(JsUser.email)
+console.log(JsUser.email)   // madhav@google.com
 
 // 2nd way (cant access "full name")
 // console.log(JsUser.full Name) and console.log(JsUser."full Name") cant access it as its wrong way to access an object
 // the only way to access this is
-console.log(JsUser["Full Name"])
+console.log(JsUser["Full Name"])    // Madhvendra Singh
 
-console.log(typeof JsUser.mySym)
+console.log(typeof JsUser.mySym)    // undefined
 // as we can see that the type of mysym is string, so if we want it as symbol then make the variable as [mySym]
-console.log(JsUser[mySym])
+console.log(JsUser[mySym])  // myKey1
 
 
 // change vale of an object
@@ -37,7 +37,7 @@ JsUser.email = "madhav1@google.com"
 // if dont want to change value then we can freeze it
 // Object.freeze(JsUser)
 // JsUser.email = "shyam1@google.com"
-console.log(JsUser.email);
+console.log(JsUser.email);  // madhav1@google.com
 
 // console.log(JsUser)
 
@@ -45,7 +45,7 @@ console.log(JsUser.email);
 // Functions
 // There might be an error if we use it with the freeze function
 JsUser.greeting = function () {
-    console.log("Hello JS user");
+    console.log("Hello JS user");   // Hello JS user
 }
 
 JsUser.greetingTwo = function(){
