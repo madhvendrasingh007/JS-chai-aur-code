@@ -38,24 +38,24 @@
                 // Eg: 
                       const id = Symbol('123')
                       const anotherId = Symbol('123')
-                      console.log(id == anotherId)
-                      console.log(id === anotherId)
+                      console.log(id == anotherId)      // false
+                      console.log(id === anotherId)     // false
                       // input is same i.e, '123' but due to Symbol datat type both will act like unique 
 
     // -> BigInt (ES11) : Represents large integers that cannot be represented by the Number type.
 
 
-// Reference Type (Non-Primitive)
+// Non-Primitive dataTypes (Call by reference)
     // -> Array : Represents a list-like collection of values, indexed by numbers (integer indices). Example: [1, 2, 3, 4].
             const temp = [1,2,3,4]
-            console.log(temp)
+            console.log(temp)   // [ 1, 2, 3, 4 ]
 
     // -> Object : Represents a collection of key-value pairs (properties and methods). Example: { name: "John", age: 30 }.
             let myObj = {
                name : "Madhvendra Singh",
                age : 21
             }
-            console.log(myObj)
+            console.log(myObj)  // { name: 'Madhvendra Singh', age: 21 }
 
     // -> Function : Represents a reusable block of code that can be invoked or called with arguments. Example: function add(x, y) { return x + y; }.
             const myFunc = function add(x,y){
@@ -70,7 +70,7 @@
 
 
 // Check for the dataType of a variable
-            console.log(typeof(myFunc))
+            console.log(typeof(myFunc)) // function
             
             // typeof operator result
             // Primitive datatypes:
