@@ -49,12 +49,12 @@ JsUser.greeting = function () {
 }
 
 JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`);
+    console.log(`Hello JS user, ${this.name}`); // undefined
 }
 
 
 // console.log(JsUser.greeting);   Function is not executed but we got the reference of it
-console.log(JsUser.greeting());
+console.log(JsUser.greeting()); // Hello JS user, Madhvendra
 
 
-console.log(JsUser.greetingTwo());
+console.log(JsUser.greetingTwo());  // undefined
