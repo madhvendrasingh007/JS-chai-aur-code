@@ -47,17 +47,17 @@ console.log(typeof newArr)  // String
 // ******* slice / splice *******
 // Refer for slice and splice : https://www.freecodecamp.org/news/javascript-slice-and-splice-how-to-use-the-slice-and-splice-js-array-methods/
 
-console.log("A ", myArr);
+console.log("Original Array : ", myArr);
 
 // SLICE
 const myN1 = myArr.slice(1,3)
 console.log(myN1);
 
-console.log("B ", myArr);
+console.log("After SLICE Original array : ", myArr);
 
 // SPLICE -> it manipulates the original array & last value is included
 const myN2 = myArr.splice(1,3)
 console.log("C ", myArr);
 console.log(myN2);
 
-console.log(`Original Array :-> ${myArr}`)
+console.log("After SPLICE Original array : ", myArr);
