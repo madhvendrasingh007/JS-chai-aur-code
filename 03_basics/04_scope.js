@@ -1,6 +1,6 @@
 // Closure function / nested function
 function one(){
-    const username = "madhvendra"
+    const username = "madhvendra singh" 
 
     function two(){
         const website = "youtube"   //in simple word child can ask father for the variable i.e two can access variable -> username
