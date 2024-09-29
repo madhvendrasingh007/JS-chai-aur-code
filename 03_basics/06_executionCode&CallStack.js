@@ -11,7 +11,7 @@
 // The value of `this` keyword is set to Global Execution Context (which is an empty Object in NODE environment, & window object in browser environment)
 
 // Types of Execution Context
-// -> Global Execution Context
+// -> Global Execution Context 
 // -> Functional Execution Context
 // -> Eval Execution Context (Not important, just to know)
 
