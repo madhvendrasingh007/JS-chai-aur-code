@@ -8,6 +8,7 @@ const myObject = {
     swift: 'swift'
 }
 
+// *********** FOR IN LOOP ***********
 // first we try to to print the keys
 for (const key in myObject) {
     console.log(`Keys are: ${key}`)
