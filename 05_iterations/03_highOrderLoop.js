@@ -12,6 +12,7 @@ for (const i of arr) {
     // console.log(i)   // Print 1-5
 }
 
+// *********** FOR OF LOOP ***********
 const greetings = "Hello world!"
 for (const greet of greetings) {
     // console.log(`Each char is ${greet}`)     // will print "Each car is (with each caracter of "Hello world" in separate line)"
