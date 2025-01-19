@@ -37,7 +37,40 @@
     // clientX, clientY, screenX, screenY
     // altkey, ctrlkey, shiftkey, keyCode
 
+    document.getElementById('images').addEventListener('click', function(e){
+        console.log("clicked inside the ul")
+    }, false)
 
+    document.getElementById('river').addEventListener('click', function(e){
+        console.log("clicked inside owl")
+        e.stopPropagation();
+    }, false)
+
+    // Event Propagation:
+
+    // You are adding an event listener to the ul and also to a specific img element inside the ul. This creates a situation where when you click on an image, both the image's event and the ul event will fire. This is because the event on the image "bubbles up" to the parent ul element.
+    // You might want to stop the propagation of the event from the img click to prevent the ul click event from firing as well.
+    
+    // stopPropagation() prevents the event from propagating (bubbling up) to the parent elements. This ensures that when you click on the river image, only the click event specific to that image fires, and the click event on the ul does not trigger. i.e addEventListener('click', function(e){ console.log("clicked inside owl")}, true) and if it is false then it is bubbling up
+
+
+    document.getElementById('google').addEventListener('click', function(e){
+        e.preventDefault();
+        e.stopPropagation(); // if this is not there then will return clicked inside the ui as it stops the bubbling
+        console.log("google clicked")
+    },false)
+
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+
+    })
+
+    //removeIt.parentNode.removeChild(removeIt)
 
 </script>
 </html>
