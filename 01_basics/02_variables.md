@@ -6,7 +6,7 @@ A concise guide to variable declarations in JavaScript with practical examples a
 
 ```javascript
 const accountId = 12345            // Cannot be reassigned
-let accountEmail = "smadhvendra80@gmail.com"  // Block-scoped, reassignable
+let accountEmail = "smad@gmail.com"  // Block-scoped, reassignable
 var accountPwd = "1234"            // Function-scoped (avoid in modern code)
 accountCity = "Jaipur"             // Implicit global variable (not recommended)
 let accountState;                  // Declared but undefined

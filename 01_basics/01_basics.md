@@ -198,3 +198,7 @@ Alternatively, create an HTML file with JavaScript:
 - [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
 - [freeCodeCamp JavaScript Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - [Eloquent JavaScript](https://eloquentjavascript.net/)
+
+---
+
+© 2025 Madhvendra Singh | [GitHub](https://github.com/madhvendrasingh007)
