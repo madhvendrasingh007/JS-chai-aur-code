@@ -19,7 +19,7 @@ This roadmap provides a structured path to mastering JavaScript, from your first
 
 Before diving into JavaScript, it's helpful to have:
 
-- [ ] Basic understanding of HTML and CSS
+- [x] Basic understanding of HTML and CSS
 - [ ] A text editor or IDE (VS Code recommended)
 - [ ] Basic computer literacy
 - [ ] Problem-solving mindset
