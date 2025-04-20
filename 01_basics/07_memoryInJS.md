@@ -109,6 +109,16 @@ Understanding how JavaScript manages memory:
 - Be explicit about your intentions with variable assignments
 - Understand the implications of passing objects to functions
 
+## Learn More
+
+1. [MDN Web Docs: JavaScript Data Types and Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+2. [JavaScript.info: Data Types](https://javascript.info/types)
+3. [W3Schools: JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
+4. [MDN Web Docs: Memory Management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+5. [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+
+---
+
 ## Further Learning
 
 - Garbage collection in JavaScript  
