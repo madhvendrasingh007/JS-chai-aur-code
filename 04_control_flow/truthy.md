@@ -1,4 +1,4 @@
-# avaScript: Truthy & Falsy, Nullish Coalescing, and Conditional Operators
+# JavaScript: Truthy & Falsy, Nullish Coalescing, and Conditional Operators
 
 This section covers important JavaScript fundamentals including truthy/falsy values, nullish coalescing, ternary operator usage, and how to check for empty values in objects/arrays.
 
