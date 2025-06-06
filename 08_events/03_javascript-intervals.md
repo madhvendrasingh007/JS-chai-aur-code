@@ -225,9 +225,5 @@ const autoSave = setInterval(() => {
 | **Memory** | Needs cleanup | Auto-cleans after execution |
 | **Parameters** | Supports extra params | Supports extra params |
 
-## 🔖 Keywords for Commit
-
-`javascript-intervals` `setInterval` `clearInterval` `repeated-execution` `interval-management` `Date.now` `timestamps` `parameter-passing` `memory-management` `periodic-tasks`
-
 ---
 © 2025 Madhvendra Singh | [GitHub](https://github.com/madhvendrasingh007) 
