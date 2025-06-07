@@ -478,8 +478,7 @@ graph TD
 **Master 200+ concepts, build 50+ projects, and become a JavaScript expert in 6 months!**
 
 [![Start Phase 1](https://img.shields.io/badge/Start_Phase_1-JavaScript_Fundamentals-brightgreen?style=for-the-badge&logo=javascript&logoColor=white)](https://javascript.info/first-steps)
-[![Join Community](https://img.shields.io/badge/Join_Community-Discord_&_Twitter-blue?style=for-the-badge&logo=discord)](https://discord.gg/javascript)
-[![Track Progress](https://img.shields.io/badge/Track_Progress-GitHub_Portfolio-black?style=for-the-badge&logo=github)](https://github.com)
+
 
 ### 💪 Remember: Every Expert Was Once a Beginner
 *Consistency beats perfection. Start today, code daily, build constantly!*
