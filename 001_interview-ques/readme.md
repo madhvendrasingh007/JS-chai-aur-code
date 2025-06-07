@@ -1,70 +1,54 @@
+<div align="center">
 
-<style>
-  h1, h2, h3, h4, h5, h6 {
-    color: #007acc;
-  }
-  a {
-    color: #ff6600;
-  }
-  .back-to-top {
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    padding: 10px 20px;
-    background-color: #007acc;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-  }
-</style>
+# 🧠 JavaScript Interview Mastery
+### *The Ultimate Collection of Interview Questions & Solutions*
 
-<!-- Back to Top Button -->
-<a href="#table-of-contents" class="back-to-top">⬆️ Back to Top</a>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Interview](https://img.shields.io/badge/Interview-Ready-brightgreen?style=for-the-badge)
+![Questions](https://img.shields.io/badge/500%2B-Questions-blue?style=for-the-badge)
+![Updated](https://img.shields.io/badge/Updated-2024-orange?style=for-the-badge)
 
-🧠 <span style='color:#007acc'># JavaScript Interview Questions & Answers</span>
+**🎯 Master JavaScript interviews with 500+ carefully curated questions from FAANG+ companies**
 
-> Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for more updates. Coding questions available [here](#coding-exercise). Check [DataStructures and Algorithms](https://github.com/sudheerj/datastructures-algorithms) for DSA related questions and [ECMAScript](https://github.com/sudheerj/ECMAScript-features) for all ES features.).
+[📚 Browse Questions](#questions) • [💡 Practice Coding](#coding-exercises) • [🚀 Study Guide](#study-guide) • [⭐ Star This Repo](#)
 
----
-
-<div>
-<p align="center">
-  <a href="https://www.greatfrontend.com/questions/js?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-react&gnrs=sudheerj">
-    <img src="./images/collab/greatfrontend-js-banner4x.png" alt="GreatFrontEnd JavaScript Interview Questions" width="100%">
-  </a>
-</p>
 </div>
 
-> 💡 Nail JavaScript interviews with questions and solutions from ex-interviewers! [Try GreatFrontEnd →](https://www.greatfrontend.com/questions/js?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-js&gnrs=sudheerj) 💡
+---
+
+## 🔥 **What Makes This Special?**
+
+<table>
+<tr>
+<td width="33%" align="center">
+<h3>🎯 <strong>Interview-Focused</strong></h3>
+Real questions from Google, Meta, Amazon, Netflix, and top startups
+</td>
+<td width="33%" align="center">
+<h3>💡 <strong>Detailed Solutions</strong></h3>
+Step-by-step explanations with multiple approaches and complexity analysis
+</td>
+<td width="33%" align="center">
+<h3>📈 <strong>Progressive Learning</strong></h3>
+Organized from basic to advanced with difficulty ratings
+</td>
+</tr>
+</table>
 
 ---
 
-<div>
-<p align="center">
-  <a href="https://www.frontendlead.com/coding-questions?utm_source=github&utm_medium=referral&ut%0Dm_campaign=sudheerj-js" rel="dofollow">
-    <img src="./images/collab/frontendlead-banner.png" alt="FrontEndLead JavaScript Interview Questions" width="100%">
-  </a>
-</p>
+## 📋 **Quick Navigation**
+
+<div align="center">
+
+| 🌟 **Fundamentals** | 🚀 **Advanced** | 💼 **Practical** | 🧪 **Coding** |
+|:---:|:---:|:---:|:---:|
+| [Variables & Types](#variables) | [Closures & Scope](#closures) | [DOM Manipulation](#dom) | [Algorithms](#algorithms) |
+| [Functions](#functions) | [Async Programming](#async) | [Event Handling](#events) | [Data Structures](#data-structures) |
+| [Objects & Arrays](#objects) | [Prototypes & Classes](#prototypes) | [Performance](#performance) | [Problem Solving](#problem-solving) |
+| [Control Flow](#control-flow) | [Design Patterns](#patterns) | [Security](#security) | [System Design](#system-design) |
+
 </div>
-
-> 🚀 Ace Javascript interview questions with solutions from FAANG+ companies! [Try FrontendLead →](https://www.frontendlead.com/coding-questions?utm_source=github&utm_medium=referral&ut%0Dm_campaign=sudheerj-js) 🚀
-
----
-
-<p align="center">
-  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=javascript-interview-questions>
-    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
-  </a>
-  <p align="center">
-    <ol>
-    <li>Take this <a href=https://links.zerotomastery.io/jsp_sudheer>JavaScript Projects</a> course to go from a JS beginner to confidently building your own projects</li>
-    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer2>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
-    <li>Take this <a href=https://links.zerotomastery.io/ajs_sudheer>Advanced JavaScript Course</a> to learn advanced JS concepts and become a top JS developer</li>
-    </ol>
-  </p>
-</p>
 
 ---
 
