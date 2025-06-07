@@ -453,20 +453,20 @@ graph TD
     J --> M[🏗️ Technical Lead]
     J --> N[📚 Developer Advocate]
     
-    style A fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style B fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style C fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
-    style D fill:#fff3e0,stroke:#e65100,stroke-width:3px
-    style E fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px
-    style F fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
-    style G fill:#f1f8e9,stroke:#33691e,stroke-width:2px
-    style H fill:#fce4ec,stroke:#880e4f,stroke-width:2px
-    style I fill:#fff8e1,stroke:#ff6f00,stroke-width:3px
-    style J fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    style K fill:#e8eaf6,stroke:#283593,stroke-width:2px
-    style L fill:#e0f2f1,stroke:#00695c,stroke-width:2px
-    style M fill:#fce4ec,stroke:#ad1457,stroke-width:2px
-    style N fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style A fill:#1e3a8a,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style B fill:#7c2d12,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style C fill:#14532d,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style D fill:#ea580c,color:#ffffff,stroke:#ffffff,stroke-width:4px
+    style E fill:#1e40af,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style F fill:#16a34a,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style G fill:#65a30d,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style H fill:#be185d,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style I fill:#d97706,color:#ffffff,stroke:#ffffff,stroke-width:4px
+    style J fill:#7c3aed,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style K fill:#1f2937,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style L fill:#0f766e,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style M fill:#be123c,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    style N fill:#c2410c,color:#ffffff,stroke:#ffffff,stroke-width:3px
 ```
 
 ---
