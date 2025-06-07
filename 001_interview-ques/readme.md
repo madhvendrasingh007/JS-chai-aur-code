@@ -10,7 +10,7 @@
 
 **🎯 Master JavaScript interviews with 500+ carefully curated questions from FAANG+ companies**
 
-[📚 Browse Questions](#questions) • [💡 Practice Coding](#coding-exercises) • [🚀 Study Guide](#study-guide) • [⭐ Star This Repo](#)
+[📚 Browse Questions](https://github.com/madhvendrasingh007/JS-chai-aur-code/tree/main/001_interview-ques#study-guide) • [💡 Practice Coding](https://www.codewars.com/) • [🚀 Study Guide](https://github.com/madhvendrasingh007/JS-chai-aur-code/tree/main) • [⭐ Star This Repo](#)
 
 </div>
 
@@ -34,21 +34,6 @@ Organized from basic to advanced with difficulty ratings
 </td>
 </tr>
 </table>
-
----
-
-## 📋 **Quick Navigation**
-
-<div align="center">
-
-| 🌟 **Fundamentals** | 🚀 **Advanced** | 💼 **Practical** | 🧪 **Coding** |
-|:---:|:---:|:---:|:---:|
-| [Variables & Types](#variables) | [Closures & Scope](#closures) | [DOM Manipulation](#dom) | [Algorithms](#algorithms) |
-| [Functions](#functions) | [Async Programming](#async) | [Event Handling](#events) | [Data Structures](#data-structures) |
-| [Objects & Arrays](#objects) | [Prototypes & Classes](#prototypes) | [Performance](#performance) | [Problem Solving](#problem-solving) |
-| [Control Flow](#control-flow) | [Design Patterns](#patterns) | [Security](#security) | [System Design](#system-design) |
-
-</div>
 
 ---
 
