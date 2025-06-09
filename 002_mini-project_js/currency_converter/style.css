@@ -313,7 +313,7 @@ form {
 }
 
 .select-container select {
-    background: transparent;
+    background-color: transparent;
     border: none;
     outline: none;
     color: var(--text-primary);
@@ -322,7 +322,12 @@ form {
     flex: 1;
     cursor: pointer;
     appearance: none;
+
+    /* Add fallback in case variable doesn't apply */
+    background-color: var(--accent-bg, #f1f5f9);
+    color: var(--text-primary, #1e293b);
 }
+
 
 .select-arrow {
     color: var(--text-secondary);
